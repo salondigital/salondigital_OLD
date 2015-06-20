@@ -18,10 +18,10 @@
  
  
  
- var codesite_token = "ABZ6GAcqXji-WSOhrZbP2Pqe1mDuvlBZ_A:1434808247754";
+ var codesite_token = "ABZ6GAelVFkqf4ROpDtWudp5VAxYAtD3tg:1434808271687";
  
  
- var CS_env = {"assetHostPath": "https://ssl.gstatic.com/codesite/ph", "domainName": null, "assetVersionPath": "https://ssl.gstatic.com/codesite/ph/8599073060794244502", "relativeBaseUrl": "", "token": "ABZ6GAcqXji-WSOhrZbP2Pqe1mDuvlBZ_A:1434808247754", "profileUrl": "/u/107543989748942104600/", "projectHomeUrl": "/p/repository-xbmcmania", "loggedInUserEmail": "salondigitalpedidos@gmail.com", "projectName": "repository-xbmcmania"};
+ var CS_env = {"domainName": null, "projectHomeUrl": "/p/repository-xbmcmania", "relativeBaseUrl": "", "loggedInUserEmail": "salondigitalpedidos@gmail.com", "assetHostPath": "https://ssl.gstatic.com/codesite/ph", "assetVersionPath": "https://ssl.gstatic.com/codesite/ph/8599073060794244502", "projectName": "repository-xbmcmania", "profileUrl": "/u/107543989748942104600/", "token": "ABZ6GAelVFkqf4ROpDtWudp5VAxYAtD3tg:1434808271687"};
  var _gaq = _gaq || [];
  _gaq.push(
  ['siteTracker._setAccount', 'UA-18071-1'],
@@ -36,7 +36,7 @@
  </script>
  
  
- <title>README.md - 
+ <title>addons_xml_generator.py - 
  repository-xbmcmania -
  
  
@@ -150,7 +150,7 @@
  | <a href="/u/107543989748942104600/" onclick="_CS_click('/gb/ph/profile');"
  title="Profile, Updates, and Settings"
  ><u>Profile</u></a>
- | <a href="https://www.google.com/accounts/Logout?continue=https%3A%2F%2Fcode.google.com%2Fp%2Frepository-xbmcmania%2Fsource%2Fbrowse%2Ftrunk%2FHelix%2FREADME.md" 
+ | <a href="https://www.google.com/accounts/Logout?continue=https%3A%2F%2Fcode.google.com%2Fp%2Frepository-xbmcmania%2Fsource%2Fbrowse%2Ftrunk%2FHelix%2Faddons_xml_generator.py" 
  onclick="_CS_click('/gb/ph/signout');"
  ><u>Sign out</u></a>
  
@@ -171,11 +171,6 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
 <a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
 </div>
 <![endif]-->
-
- <div style="font-weight:bold; color:#a03; padding:5px; margin-top:10px; text-align:center; background:#ffeac0;">
- We have some <a href='https://groups.google.com/forum/#!topic/google-code-hosting/Gh3kl9MrzY4'>known issues</a> with hg repositories.
- 
- </div>
 
 
 
@@ -341,7 +336,7 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
  <span id="crumb_root">
  
  <a href="/p/repository-xbmcmania/source/browse/">svn</a>/&nbsp;</span>
- <span id="crumb_links" class="ifClosed"><a href="/p/repository-xbmcmania/source/browse/trunk/">trunk</a><span class="sp">/&nbsp;</span><a href="/p/repository-xbmcmania/source/browse/trunk/Helix/">Helix</a><span class="sp">/&nbsp;</span>README.md</span>
+ <span id="crumb_links" class="ifClosed"><a href="/p/repository-xbmcmania/source/browse/trunk/">trunk</a><span class="sp">/&nbsp;</span><a href="/p/repository-xbmcmania/source/browse/trunk/Helix/">Helix</a><span class="sp">/&nbsp;</span>addons_xml_generator.py</span>
  
  
 
@@ -350,7 +345,7 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
  
  
  <td nowrap="nowrap" width="33%" align="center">
- <a href="/p/repository-xbmcmania/source/browse/trunk/Helix/README.md?edit=1"
+ <a href="/p/repository-xbmcmania/source/browse/trunk/Helix/addons_xml_generator.py?edit=1"
  ><img src="https://ssl.gstatic.com/codesite/ph/images/pencil-y14.png"
  class="edit_icon">Edit file</a>
  </td>
@@ -394,31 +389,780 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
 ><tr id="gr_svn11_5"
 
 ><td id="5"><a href="#5">5</a></td></tr
+><tr id="gr_svn11_6"
+
+><td id="6"><a href="#6">6</a></td></tr
+><tr id="gr_svn11_7"
+
+><td id="7"><a href="#7">7</a></td></tr
+><tr id="gr_svn11_8"
+
+><td id="8"><a href="#8">8</a></td></tr
+><tr id="gr_svn11_9"
+
+><td id="9"><a href="#9">9</a></td></tr
+><tr id="gr_svn11_10"
+
+><td id="10"><a href="#10">10</a></td></tr
+><tr id="gr_svn11_11"
+
+><td id="11"><a href="#11">11</a></td></tr
+><tr id="gr_svn11_12"
+
+><td id="12"><a href="#12">12</a></td></tr
+><tr id="gr_svn11_13"
+
+><td id="13"><a href="#13">13</a></td></tr
+><tr id="gr_svn11_14"
+
+><td id="14"><a href="#14">14</a></td></tr
+><tr id="gr_svn11_15"
+
+><td id="15"><a href="#15">15</a></td></tr
+><tr id="gr_svn11_16"
+
+><td id="16"><a href="#16">16</a></td></tr
+><tr id="gr_svn11_17"
+
+><td id="17"><a href="#17">17</a></td></tr
+><tr id="gr_svn11_18"
+
+><td id="18"><a href="#18">18</a></td></tr
+><tr id="gr_svn11_19"
+
+><td id="19"><a href="#19">19</a></td></tr
+><tr id="gr_svn11_20"
+
+><td id="20"><a href="#20">20</a></td></tr
+><tr id="gr_svn11_21"
+
+><td id="21"><a href="#21">21</a></td></tr
+><tr id="gr_svn11_22"
+
+><td id="22"><a href="#22">22</a></td></tr
+><tr id="gr_svn11_23"
+
+><td id="23"><a href="#23">23</a></td></tr
+><tr id="gr_svn11_24"
+
+><td id="24"><a href="#24">24</a></td></tr
+><tr id="gr_svn11_25"
+
+><td id="25"><a href="#25">25</a></td></tr
+><tr id="gr_svn11_26"
+
+><td id="26"><a href="#26">26</a></td></tr
+><tr id="gr_svn11_27"
+
+><td id="27"><a href="#27">27</a></td></tr
+><tr id="gr_svn11_28"
+
+><td id="28"><a href="#28">28</a></td></tr
+><tr id="gr_svn11_29"
+
+><td id="29"><a href="#29">29</a></td></tr
+><tr id="gr_svn11_30"
+
+><td id="30"><a href="#30">30</a></td></tr
+><tr id="gr_svn11_31"
+
+><td id="31"><a href="#31">31</a></td></tr
+><tr id="gr_svn11_32"
+
+><td id="32"><a href="#32">32</a></td></tr
+><tr id="gr_svn11_33"
+
+><td id="33"><a href="#33">33</a></td></tr
+><tr id="gr_svn11_34"
+
+><td id="34"><a href="#34">34</a></td></tr
+><tr id="gr_svn11_35"
+
+><td id="35"><a href="#35">35</a></td></tr
+><tr id="gr_svn11_36"
+
+><td id="36"><a href="#36">36</a></td></tr
+><tr id="gr_svn11_37"
+
+><td id="37"><a href="#37">37</a></td></tr
+><tr id="gr_svn11_38"
+
+><td id="38"><a href="#38">38</a></td></tr
+><tr id="gr_svn11_39"
+
+><td id="39"><a href="#39">39</a></td></tr
+><tr id="gr_svn11_40"
+
+><td id="40"><a href="#40">40</a></td></tr
+><tr id="gr_svn11_41"
+
+><td id="41"><a href="#41">41</a></td></tr
+><tr id="gr_svn11_42"
+
+><td id="42"><a href="#42">42</a></td></tr
+><tr id="gr_svn11_43"
+
+><td id="43"><a href="#43">43</a></td></tr
+><tr id="gr_svn11_44"
+
+><td id="44"><a href="#44">44</a></td></tr
+><tr id="gr_svn11_45"
+
+><td id="45"><a href="#45">45</a></td></tr
+><tr id="gr_svn11_46"
+
+><td id="46"><a href="#46">46</a></td></tr
+><tr id="gr_svn11_47"
+
+><td id="47"><a href="#47">47</a></td></tr
+><tr id="gr_svn11_48"
+
+><td id="48"><a href="#48">48</a></td></tr
+><tr id="gr_svn11_49"
+
+><td id="49"><a href="#49">49</a></td></tr
+><tr id="gr_svn11_50"
+
+><td id="50"><a href="#50">50</a></td></tr
+><tr id="gr_svn11_51"
+
+><td id="51"><a href="#51">51</a></td></tr
+><tr id="gr_svn11_52"
+
+><td id="52"><a href="#52">52</a></td></tr
+><tr id="gr_svn11_53"
+
+><td id="53"><a href="#53">53</a></td></tr
+><tr id="gr_svn11_54"
+
+><td id="54"><a href="#54">54</a></td></tr
+><tr id="gr_svn11_55"
+
+><td id="55"><a href="#55">55</a></td></tr
+><tr id="gr_svn11_56"
+
+><td id="56"><a href="#56">56</a></td></tr
+><tr id="gr_svn11_57"
+
+><td id="57"><a href="#57">57</a></td></tr
+><tr id="gr_svn11_58"
+
+><td id="58"><a href="#58">58</a></td></tr
+><tr id="gr_svn11_59"
+
+><td id="59"><a href="#59">59</a></td></tr
+><tr id="gr_svn11_60"
+
+><td id="60"><a href="#60">60</a></td></tr
+><tr id="gr_svn11_61"
+
+><td id="61"><a href="#61">61</a></td></tr
+><tr id="gr_svn11_62"
+
+><td id="62"><a href="#62">62</a></td></tr
+><tr id="gr_svn11_63"
+
+><td id="63"><a href="#63">63</a></td></tr
+><tr id="gr_svn11_64"
+
+><td id="64"><a href="#64">64</a></td></tr
+><tr id="gr_svn11_65"
+
+><td id="65"><a href="#65">65</a></td></tr
+><tr id="gr_svn11_66"
+
+><td id="66"><a href="#66">66</a></td></tr
+><tr id="gr_svn11_67"
+
+><td id="67"><a href="#67">67</a></td></tr
+><tr id="gr_svn11_68"
+
+><td id="68"><a href="#68">68</a></td></tr
+><tr id="gr_svn11_69"
+
+><td id="69"><a href="#69">69</a></td></tr
+><tr id="gr_svn11_70"
+
+><td id="70"><a href="#70">70</a></td></tr
+><tr id="gr_svn11_71"
+
+><td id="71"><a href="#71">71</a></td></tr
+><tr id="gr_svn11_72"
+
+><td id="72"><a href="#72">72</a></td></tr
+><tr id="gr_svn11_73"
+
+><td id="73"><a href="#73">73</a></td></tr
+><tr id="gr_svn11_74"
+
+><td id="74"><a href="#74">74</a></td></tr
+><tr id="gr_svn11_75"
+
+><td id="75"><a href="#75">75</a></td></tr
+><tr id="gr_svn11_76"
+
+><td id="76"><a href="#76">76</a></td></tr
+><tr id="gr_svn11_77"
+
+><td id="77"><a href="#77">77</a></td></tr
+><tr id="gr_svn11_78"
+
+><td id="78"><a href="#78">78</a></td></tr
+><tr id="gr_svn11_79"
+
+><td id="79"><a href="#79">79</a></td></tr
+><tr id="gr_svn11_80"
+
+><td id="80"><a href="#80">80</a></td></tr
+><tr id="gr_svn11_81"
+
+><td id="81"><a href="#81">81</a></td></tr
+><tr id="gr_svn11_82"
+
+><td id="82"><a href="#82">82</a></td></tr
+><tr id="gr_svn11_83"
+
+><td id="83"><a href="#83">83</a></td></tr
+><tr id="gr_svn11_84"
+
+><td id="84"><a href="#84">84</a></td></tr
+><tr id="gr_svn11_85"
+
+><td id="85"><a href="#85">85</a></td></tr
+><tr id="gr_svn11_86"
+
+><td id="86"><a href="#86">86</a></td></tr
+><tr id="gr_svn11_87"
+
+><td id="87"><a href="#87">87</a></td></tr
+><tr id="gr_svn11_88"
+
+><td id="88"><a href="#88">88</a></td></tr
+><tr id="gr_svn11_89"
+
+><td id="89"><a href="#89">89</a></td></tr
+><tr id="gr_svn11_90"
+
+><td id="90"><a href="#90">90</a></td></tr
+><tr id="gr_svn11_91"
+
+><td id="91"><a href="#91">91</a></td></tr
+><tr id="gr_svn11_92"
+
+><td id="92"><a href="#92">92</a></td></tr
+><tr id="gr_svn11_93"
+
+><td id="93"><a href="#93">93</a></td></tr
+><tr id="gr_svn11_94"
+
+><td id="94"><a href="#94">94</a></td></tr
+><tr id="gr_svn11_95"
+
+><td id="95"><a href="#95">95</a></td></tr
+><tr id="gr_svn11_96"
+
+><td id="96"><a href="#96">96</a></td></tr
+><tr id="gr_svn11_97"
+
+><td id="97"><a href="#97">97</a></td></tr
+><tr id="gr_svn11_98"
+
+><td id="98"><a href="#98">98</a></td></tr
+><tr id="gr_svn11_99"
+
+><td id="99"><a href="#99">99</a></td></tr
+><tr id="gr_svn11_100"
+
+><td id="100"><a href="#100">100</a></td></tr
+><tr id="gr_svn11_101"
+
+><td id="101"><a href="#101">101</a></td></tr
+><tr id="gr_svn11_102"
+
+><td id="102"><a href="#102">102</a></td></tr
+><tr id="gr_svn11_103"
+
+><td id="103"><a href="#103">103</a></td></tr
+><tr id="gr_svn11_104"
+
+><td id="104"><a href="#104">104</a></td></tr
+><tr id="gr_svn11_105"
+
+><td id="105"><a href="#105">105</a></td></tr
+><tr id="gr_svn11_106"
+
+><td id="106"><a href="#106">106</a></td></tr
+><tr id="gr_svn11_107"
+
+><td id="107"><a href="#107">107</a></td></tr
+><tr id="gr_svn11_108"
+
+><td id="108"><a href="#108">108</a></td></tr
+><tr id="gr_svn11_109"
+
+><td id="109"><a href="#109">109</a></td></tr
+><tr id="gr_svn11_110"
+
+><td id="110"><a href="#110">110</a></td></tr
+><tr id="gr_svn11_111"
+
+><td id="111"><a href="#111">111</a></td></tr
+><tr id="gr_svn11_112"
+
+><td id="112"><a href="#112">112</a></td></tr
 ></table></pre>
 <pre><table width="100%"><tr class="nocursor"><td></td></tr></table></pre>
 </td>
 <td id="lines">
 <pre><table width="100%"><tr class="cursor_stop cursor_hidden"><td></td></tr></table></pre>
-<pre ><table id="src_table_0"><tr
+<pre class="prettyprint lang-py"><table id="src_table_0"><tr
 id=sl_svn11_1
 
-><td class="source">README<br></td></tr
+><td class="source"># *<br></td></tr
 ><tr
 id=sl_svn11_2
 
-><td class="source"><br></td></tr
+><td class="source"># *  Copyright (C) 2012-2013 Garrett Brown<br></td></tr
 ><tr
 id=sl_svn11_3
 
-><td class="source">FUTURAS ACTUALIZACIONES E INSTRUCCIONES<br></td></tr
+><td class="source"># *  Copyright (C) 2010      j48antialias<br></td></tr
 ><tr
 id=sl_svn11_4
 
-><td class="source"><br></td></tr
+><td class="source"># *<br></td></tr
 ><tr
 id=sl_svn11_5
 
-><td class="source">@tocinillo<br></td></tr
+><td class="source"># *  This Program is free software; you can redistribute it and/or modify<br></td></tr
+><tr
+id=sl_svn11_6
+
+><td class="source"># *  it under the terms of the GNU General Public License as published by<br></td></tr
+><tr
+id=sl_svn11_7
+
+><td class="source"># *  the Free Software Foundation; either version 2, or (at your option)<br></td></tr
+><tr
+id=sl_svn11_8
+
+><td class="source"># *  any later version.<br></td></tr
+><tr
+id=sl_svn11_9
+
+><td class="source"># *<br></td></tr
+><tr
+id=sl_svn11_10
+
+><td class="source"># *  This Program is distributed in the hope that it will be useful,<br></td></tr
+><tr
+id=sl_svn11_11
+
+><td class="source"># *  but WITHOUT ANY WARRANTY; without even the implied warranty of<br></td></tr
+><tr
+id=sl_svn11_12
+
+><td class="source"># *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the<br></td></tr
+><tr
+id=sl_svn11_13
+
+><td class="source"># *  GNU General Public License for more details.<br></td></tr
+><tr
+id=sl_svn11_14
+
+><td class="source"># *<br></td></tr
+><tr
+id=sl_svn11_15
+
+><td class="source"># *  You should have received a copy of the GNU General Public License<br></td></tr
+><tr
+id=sl_svn11_16
+
+><td class="source"># *  along with XBMC; see the file COPYING.  If not, write to<br></td></tr
+><tr
+id=sl_svn11_17
+
+><td class="source"># *  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.<br></td></tr
+><tr
+id=sl_svn11_18
+
+><td class="source"># *  http://www.gnu.org/copyleft/gpl.html<br></td></tr
+><tr
+id=sl_svn11_19
+
+><td class="source"># *<br></td></tr
+><tr
+id=sl_svn11_20
+
+><td class="source"># *  Based on code by j48antialias:<br></td></tr
+><tr
+id=sl_svn11_21
+
+><td class="source"># *  https://anarchintosh-projects.googlecode.com/files/addons_xml_generator.py<br></td></tr
+><tr
+id=sl_svn11_22
+
+><td class="source"> <br></td></tr
+><tr
+id=sl_svn11_23
+
+><td class="source">&quot;&quot;&quot; addons.xml generator &quot;&quot;&quot;<br></td></tr
+><tr
+id=sl_svn11_24
+
+><td class="source"> <br></td></tr
+><tr
+id=sl_svn11_25
+
+><td class="source">import os<br></td></tr
+><tr
+id=sl_svn11_26
+
+><td class="source">import sys<br></td></tr
+><tr
+id=sl_svn11_27
+
+><td class="source"> <br></td></tr
+><tr
+id=sl_svn11_28
+
+><td class="source"># Compatibility with 3.0, 3.1 and 3.2 not supporting u&quot;&quot; literals<br></td></tr
+><tr
+id=sl_svn11_29
+
+><td class="source">if sys.version &lt; &#39;3&#39;:<br></td></tr
+><tr
+id=sl_svn11_30
+
+><td class="source">    import codecs<br></td></tr
+><tr
+id=sl_svn11_31
+
+><td class="source">    def u(x):<br></td></tr
+><tr
+id=sl_svn11_32
+
+><td class="source">        return codecs.unicode_escape_decode(x)[0]<br></td></tr
+><tr
+id=sl_svn11_33
+
+><td class="source">else:<br></td></tr
+><tr
+id=sl_svn11_34
+
+><td class="source">    def u(x):<br></td></tr
+><tr
+id=sl_svn11_35
+
+><td class="source">        return x<br></td></tr
+><tr
+id=sl_svn11_36
+
+><td class="source"> <br></td></tr
+><tr
+id=sl_svn11_37
+
+><td class="source">class Generator:<br></td></tr
+><tr
+id=sl_svn11_38
+
+><td class="source">    &quot;&quot;&quot;<br></td></tr
+><tr
+id=sl_svn11_39
+
+><td class="source">        Generates a new addons.xml file from each addons addon.xml file<br></td></tr
+><tr
+id=sl_svn11_40
+
+><td class="source">        and a new addons.xml.md5 hash file. Must be run from the root of<br></td></tr
+><tr
+id=sl_svn11_41
+
+><td class="source">        the checked-out repo. Only handles single depth folder structure.<br></td></tr
+><tr
+id=sl_svn11_42
+
+><td class="source">    &quot;&quot;&quot;<br></td></tr
+><tr
+id=sl_svn11_43
+
+><td class="source">    def __init__( self ):<br></td></tr
+><tr
+id=sl_svn11_44
+
+><td class="source">        # generate files<br></td></tr
+><tr
+id=sl_svn11_45
+
+><td class="source">        self._generate_addons_file()<br></td></tr
+><tr
+id=sl_svn11_46
+
+><td class="source">        self._generate_md5_file()<br></td></tr
+><tr
+id=sl_svn11_47
+
+><td class="source">        # notify user<br></td></tr
+><tr
+id=sl_svn11_48
+
+><td class="source">        print(&quot;Finished updating addons xml and md5 files&quot;)<br></td></tr
+><tr
+id=sl_svn11_49
+
+><td class="source"> <br></td></tr
+><tr
+id=sl_svn11_50
+
+><td class="source">    def _generate_addons_file( self ):<br></td></tr
+><tr
+id=sl_svn11_51
+
+><td class="source">        # addon list<br></td></tr
+><tr
+id=sl_svn11_52
+
+><td class="source">        addons = os.listdir( &quot;.&quot; )<br></td></tr
+><tr
+id=sl_svn11_53
+
+><td class="source">        # final addons text<br></td></tr
+><tr
+id=sl_svn11_54
+
+><td class="source">        addons_xml = u(&quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot; standalone=\&quot;yes\&quot;?&gt;\n&lt;addons&gt;\n&quot;)<br></td></tr
+><tr
+id=sl_svn11_55
+
+><td class="source">        # loop thru and add each addons addon.xml file<br></td></tr
+><tr
+id=sl_svn11_56
+
+><td class="source">        for addon in addons:<br></td></tr
+><tr
+id=sl_svn11_57
+
+><td class="source">            try:<br></td></tr
+><tr
+id=sl_svn11_58
+
+><td class="source">                # skip any file or .svn folder or .git folder<br></td></tr
+><tr
+id=sl_svn11_59
+
+><td class="source">                if ( not os.path.isdir( addon ) or addon == &quot;.svn&quot; or addon == &quot;.git&quot; ): continue<br></td></tr
+><tr
+id=sl_svn11_60
+
+><td class="source">                # create path<br></td></tr
+><tr
+id=sl_svn11_61
+
+><td class="source">                _path = os.path.join( addon, &quot;addon.xml&quot; )<br></td></tr
+><tr
+id=sl_svn11_62
+
+><td class="source">                # split lines for stripping<br></td></tr
+><tr
+id=sl_svn11_63
+
+><td class="source">                xml_lines = open( _path, &quot;r&quot; ).read().splitlines()<br></td></tr
+><tr
+id=sl_svn11_64
+
+><td class="source">                # new addon<br></td></tr
+><tr
+id=sl_svn11_65
+
+><td class="source">                addon_xml = &quot;&quot;<br></td></tr
+><tr
+id=sl_svn11_66
+
+><td class="source">                # loop thru cleaning each line<br></td></tr
+><tr
+id=sl_svn11_67
+
+><td class="source">                for line in xml_lines:<br></td></tr
+><tr
+id=sl_svn11_68
+
+><td class="source">                    # skip encoding format line<br></td></tr
+><tr
+id=sl_svn11_69
+
+><td class="source">                    if ( line.find( &quot;&lt;?xml&quot; ) &gt;= 0 ): continue<br></td></tr
+><tr
+id=sl_svn11_70
+
+><td class="source">                    # add line<br></td></tr
+><tr
+id=sl_svn11_71
+
+><td class="source">                    if sys.version &lt; &#39;3&#39;:<br></td></tr
+><tr
+id=sl_svn11_72
+
+><td class="source">                        addon_xml += unicode( line.rstrip() + &quot;\n&quot;, &quot;UTF-8&quot; )<br></td></tr
+><tr
+id=sl_svn11_73
+
+><td class="source">                    else:<br></td></tr
+><tr
+id=sl_svn11_74
+
+><td class="source">                        addon_xml += line.rstrip() + &quot;\n&quot;<br></td></tr
+><tr
+id=sl_svn11_75
+
+><td class="source">                # we succeeded so add to our final addons.xml text<br></td></tr
+><tr
+id=sl_svn11_76
+
+><td class="source">                addons_xml += addon_xml.rstrip() + &quot;\n\n&quot;<br></td></tr
+><tr
+id=sl_svn11_77
+
+><td class="source">            except Exception as e:<br></td></tr
+><tr
+id=sl_svn11_78
+
+><td class="source">                # missing or poorly formatted addon.xml<br></td></tr
+><tr
+id=sl_svn11_79
+
+><td class="source">                print(&quot;Excluding %s for %s&quot; % ( _path, e ))<br></td></tr
+><tr
+id=sl_svn11_80
+
+><td class="source">        # clean and add closing tag<br></td></tr
+><tr
+id=sl_svn11_81
+
+><td class="source">        addons_xml = addons_xml.strip() + u(&quot;\n&lt;/addons&gt;\n&quot;)<br></td></tr
+><tr
+id=sl_svn11_82
+
+><td class="source">        # save file<br></td></tr
+><tr
+id=sl_svn11_83
+
+><td class="source">        self._save_file( addons_xml.encode( &quot;UTF-8&quot; ), file=&quot;addons.xml&quot; )<br></td></tr
+><tr
+id=sl_svn11_84
+
+><td class="source"> <br></td></tr
+><tr
+id=sl_svn11_85
+
+><td class="source">    def _generate_md5_file( self ):<br></td></tr
+><tr
+id=sl_svn11_86
+
+><td class="source">        # create a new md5 hash<br></td></tr
+><tr
+id=sl_svn11_87
+
+><td class="source">        try:<br></td></tr
+><tr
+id=sl_svn11_88
+
+><td class="source">            import md5<br></td></tr
+><tr
+id=sl_svn11_89
+
+><td class="source">            m = md5.new( open( &quot;addons.xml&quot;, &quot;r&quot; ).read() ).hexdigest()<br></td></tr
+><tr
+id=sl_svn11_90
+
+><td class="source">        except ImportError:<br></td></tr
+><tr
+id=sl_svn11_91
+
+><td class="source">            import hashlib<br></td></tr
+><tr
+id=sl_svn11_92
+
+><td class="source">            m = hashlib.md5( open( &quot;addons.xml&quot;, &quot;r&quot;, encoding=&quot;UTF-8&quot; ).read().encode( &quot;UTF-8&quot; ) ).hexdigest()<br></td></tr
+><tr
+id=sl_svn11_93
+
+><td class="source"> <br></td></tr
+><tr
+id=sl_svn11_94
+
+><td class="source">        # save file<br></td></tr
+><tr
+id=sl_svn11_95
+
+><td class="source">        try:<br></td></tr
+><tr
+id=sl_svn11_96
+
+><td class="source">            self._save_file( m.encode( &quot;UTF-8&quot; ), file=&quot;addons.xml.md5&quot; )<br></td></tr
+><tr
+id=sl_svn11_97
+
+><td class="source">        except Exception as e:<br></td></tr
+><tr
+id=sl_svn11_98
+
+><td class="source">            # oops<br></td></tr
+><tr
+id=sl_svn11_99
+
+><td class="source">            print(&quot;An error occurred creating addons.xml.md5 file!\n%s&quot; % e)<br></td></tr
+><tr
+id=sl_svn11_100
+
+><td class="source"> <br></td></tr
+><tr
+id=sl_svn11_101
+
+><td class="source">    def _save_file( self, data, file ):<br></td></tr
+><tr
+id=sl_svn11_102
+
+><td class="source">        try:<br></td></tr
+><tr
+id=sl_svn11_103
+
+><td class="source">            # write data to the file (use b for Python 3)<br></td></tr
+><tr
+id=sl_svn11_104
+
+><td class="source">            open( file, &quot;wb&quot; ).write( data )<br></td></tr
+><tr
+id=sl_svn11_105
+
+><td class="source">        except Exception as e:<br></td></tr
+><tr
+id=sl_svn11_106
+
+><td class="source">            # oops<br></td></tr
+><tr
+id=sl_svn11_107
+
+><td class="source">            print(&quot;An error occurred saving %s file!\n%s&quot; % ( file, e ))<br></td></tr
+><tr
+id=sl_svn11_108
+
+><td class="source"> <br></td></tr
+><tr
+id=sl_svn11_109
+
+><td class="source"> <br></td></tr
+><tr
+id=sl_svn11_110
+
+><td class="source">if ( __name__ == &quot;__main__&quot; ):<br></td></tr
+><tr
+id=sl_svn11_111
+
+><td class="source">    # start<br></td></tr
+><tr
+id=sl_svn11_112
+
+><td class="source">    Generator()<br></td></tr
 ></table></pre>
 <pre><table width="100%"><tr class="cursor_stop cursor_hidden"><td></td></tr></table></pre>
 </td>
@@ -539,7 +1283,7 @@ id=sl_svn11_5
  <a href="/p/repository-xbmcmania/source/detail?spec=svn11&amp;r=1">r1</a>
  by rafael.miguel
  on Mar 25, 2015
- &nbsp; <a href="/p/repository-xbmcmania/source/diff?spec=svn11&r=1&amp;format=side&amp;path=/trunk/Helix/README.md&amp;old_path=/trunk/Helix/README.md&amp;old=">Diff</a>
+ &nbsp; <a href="/p/repository-xbmcmania/source/diff?spec=svn11&r=1&amp;format=side&amp;path=/trunk/Helix/addons_xml_generator.py&amp;old_path=/trunk/Helix/addons_xml_generator.py&amp;old=">Diff</a>
  </div>
  <pre>Reset</pre>
  </div>
@@ -2242,7 +2986,7 @@ id=sl_svn11_5
  <div id="older_bubble">
  <p>Older revisions</p>
  
- <a href="/p/repository-xbmcmania/source/list?path=/trunk/Helix/README.md&start=1">All revisions of this file</a>
+ <a href="/p/repository-xbmcmania/source/list?path=/trunk/Helix/addons_xml_generator.py&start=1">All revisions of this file</a>
  </div>
  </div>
  <div class="round1"></div>
@@ -2258,10 +3002,10 @@ id=sl_svn11_5
  <div id="fileinfo_bubble">
  <p>File info</p>
  
- <div>Size: 63 bytes,
- 5 lines</div>
+ <div>Size: 4370 bytes,
+ 112 lines</div>
  
- <div><a href="//repository-xbmcmania.googlecode.com/svn/trunk/Helix/README.md">View raw file</a></div>
+ <div><a href="//repository-xbmcmania.googlecode.com/svn/trunk/Helix/addons_xml_generator.py">View raw file</a></div>
  </div>
  
  </div>
@@ -2277,6 +3021,9 @@ id=sl_svn11_5
 
 </div>
 </div>
+
+<script src="https://ssl.gstatic.com/codesite/ph/8599073060794244502/js/prettify/prettify.js"></script>
+<script type="text/javascript">prettyPrint();</script>
 
 
 <script src="https://ssl.gstatic.com/codesite/ph/8599073060794244502/js/source_file_scripts.js"></script>
@@ -2391,9 +3138,9 @@ id=sl_svn11_5
  var codereviews;
  function revsOnLoadHandler() {
  // register our source container with the commenting code
- var paths = {'svn11': '/trunk/Helix/README.md'}
+ var paths = {'svn11': '/trunk/Helix/addons_xml_generator.py'}
  codereviews = CR_controller.setup(
- {"assetHostPath": "https://ssl.gstatic.com/codesite/ph", "domainName": null, "assetVersionPath": "https://ssl.gstatic.com/codesite/ph/8599073060794244502", "relativeBaseUrl": "", "token": "ABZ6GAcqXji-WSOhrZbP2Pqe1mDuvlBZ_A:1434808247754", "profileUrl": "/u/107543989748942104600/", "projectHomeUrl": "/p/repository-xbmcmania", "loggedInUserEmail": "salondigitalpedidos@gmail.com", "projectName": "repository-xbmcmania"}, '', 'svn11', paths,
+ {"domainName": null, "projectHomeUrl": "/p/repository-xbmcmania", "relativeBaseUrl": "", "loggedInUserEmail": "salondigitalpedidos@gmail.com", "assetHostPath": "https://ssl.gstatic.com/codesite/ph", "assetVersionPath": "https://ssl.gstatic.com/codesite/ph/8599073060794244502", "projectName": "repository-xbmcmania", "profileUrl": "/u/107543989748942104600/", "token": "ABZ6GAelVFkqf4ROpDtWudp5VAxYAtD3tg:1434808271687"}, '', 'svn11', paths,
  CR_BrowseIntegrationFactory);
  
  codereviews.registerActivityListener(CR_ActivityType.REVEAL_DRAFT_PLATE, showPublishInstructions);
