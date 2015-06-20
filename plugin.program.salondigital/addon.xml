@@ -2,7 +2,6 @@
 <addon id="plugin.program.salondigital"
     name="SalonDigital" version="1.2.2" provider-name="Tocinillo">
   <requires>
-    <import addon="xbmc.python" version="1.0"/>
     <import addon="xbmc.python" version="2.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
