@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<strings>
+    <!-- Plugin settings -->
+    <string id="30000">Cambiar Kodi a modo ventana antes de la ejecución</string>
+    <string id="30001">Deshabilitar la detección de inactividad de pantalla de XBMC</string>
+    <!-- Context menu -->
+    <string id="30100">Ajustes del Plugin</string>
+    <!-- Dialogs -->
+</strings>

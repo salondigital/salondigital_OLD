@@ -1,0 +1,4 @@
+2015-06-20 :: 0.2.5
+
+  * Primera versión BETA del programa de auto-actualizaciones para clientes.
+
